@@ -1,0 +1,15 @@
+paths:
+    in_text: "./examples/chunks_in.txt"
+    out_text: "./examples/chunks_out.txt"
+    check_text: "./examples/check_text.txt"
+
+chars:
+    chunk_separator: "\n"
+    strip: ["–", "—", ",", ".", ":", ";", "»", "«", "?", "!" , ")", "(", "…", "\"", "”", "“"]
+    space_replace: ["'"]
+
+algorithm:
+    small_phrase_size: 7
+    words_ahead_to_check: 33
+    words_behind_to_check: 5
+    mistakes_border: 0.74
