@@ -1,6 +1,6 @@
 # TRANSCRIBE-TRIMMER
 
-*Textual dataset cleaning algorithm.* It fixes misstakes of a SST model results with availability of the original speech transcription.
+*SST output cleaning algorithm.* It fixes misstakes of a SST model result with availability of the original speech transcription.
 
 ## UASGE
 
