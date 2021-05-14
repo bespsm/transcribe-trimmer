@@ -1,6 +1,10 @@
 # TRANSCRIBE-TRIMMER
 
-*SST output cleaning algorithm.* It fixes misstakes of a SST model result with availability of the original speech transcription.
+*SST output cleaning algorithm.* It fixes misstakes/typos of a SST model result with availability of the original speech transcription.
+
+## EXAMPLES
+
+In `examples/` folder you can compare `chunks_in.txt` with algorithm result `chunks_out.txt`. `check_text.txt` was used as original text.
 
 ## UASGE
 
